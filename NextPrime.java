@@ -26,3 +26,12 @@ public static long nextPrime(long i) {
 			}i+=2;
 		}
 	}
+
+public static boolean isPrime(long i) {
+		// TODO Auto-generated method stub
+		for(long j=2;j*j<=i;j++) {
+			if(i%j==0) {
+				return false;
+			}
+		}return true;
+	}
