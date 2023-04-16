@@ -14,3 +14,15 @@ for(int i=0;i<n;){
     }
 
     cout<< ans << endl;
+                                        // method 2
+
+
+for(ll i=0;i<s.size();i++){
+        if(s[i]=='1'){
+                cnt++;
+        }
+        else{
+                maxi=max(maxi,cnt);
+                cnt=0;
+        }
+}
