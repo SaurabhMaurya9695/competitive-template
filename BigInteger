@@ -1,0 +1,10 @@
+vector<cpp_int > catalan(n + 1 ) ;
+
+// if you write cpp_int , it can handle or store the largest values as possible 
+//{ Driver Code Starts
+//Initial template for C++
+
+// use this library 
+#include <boost/multiprecision/cpp_int.hpp>
+using boost::multiprecision::cpp_int;  // https://www.geeksforgeeks.org/factorial-large-number-using-boost-multiprecision-library/
+using namespace std;
